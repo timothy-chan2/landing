@@ -121,3 +121,9 @@ p {
 		width: 230px;
 	}
 }
+
+/* New code to highlight card*/
+.card-highlight {
+	background: #1A48E3;
+	color: white;
+}
