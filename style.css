@@ -116,7 +116,7 @@ p {
   }
 }
 
-/* Adjustment swhen width is 800px or less*/
+/* Adjustments when width is 800px or less*/
 @media (max-width: 800px) {
 	.card-white {
 		width: 230px;
