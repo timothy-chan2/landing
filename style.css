@@ -84,8 +84,8 @@ p {
 }
 
 .desc {
-	text-align: left;
-	font-size: 18px;
+  text-align: left;
+  font-size: 18px;
 }
 
 .footer {
@@ -99,32 +99,32 @@ p {
 }
 
 .cards {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	grid-gap: 16px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 16px;
 }
 
 /* Adjustments when width is 1000px or less*/
 @media (max-width: 1000px) {
   .cards {
-  	width: 87vw;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    width: 87vw;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); /*Each row will only contain as many cards as can fit in the screen width*/
   }
 
   .card-white {
-  	width: auto;
+    width: auto;
   }
 }
 
 /* Adjustments when width is 800px or less*/
 @media (max-width: 800px) {
-	.card-white {
-		width: 230px;
-	}
+  .card-white {
+    width: 230px;
+  }
 }
 
 /* Class used to highlight selected card*/
 .card-highlight {
-	background: #1A48E3;
-	color: white;
+  background: #1A48E3;
+  color: white;
 }
